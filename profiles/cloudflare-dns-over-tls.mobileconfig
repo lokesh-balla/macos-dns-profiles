@@ -20,9 +20,9 @@
 					<string>one.one.one.one</string>
 				</dict>
 				<key>PayloadDescription</key>
-				<string>Google DNS over TLS</string>
+				<string>CloudFlare DNS over TLS</string>
 				<key>PayloadDisplayName</key>
-				<string>Google DNS over TLS</string>
+				<string>CloudFlare DNS over TLS</string>
 				<key>PayloadIdentifier</key>
 				<string>com.apple.dnsSettings.managed.501B74FF-3379-4CF6-95B3-B68C171F1A11</string>
 				<key>PayloadType</key>
@@ -36,9 +36,9 @@
 			</dict>
 		</array>
 		<key>PayloadDescription</key>
-		<string>Google DNS Over TLS to devices on or above macos Big Sur and iOS 14</string>
+		<string>CloudFlare DNS Over TLS to devices on or above macos Big Sur and iOS 14</string>
 		<key>PayloadDisplayName</key>
-		<string>Google Encrypted DNS over TLS</string>
+		<string>CloudFlare Encrypted DNS over TLS</string>
 		<key>PayloadIdentifier</key>
 		<string>com.lokesh-balla.apple-dns</string>
 		<key>PayloadRemovalDisallowed</key>

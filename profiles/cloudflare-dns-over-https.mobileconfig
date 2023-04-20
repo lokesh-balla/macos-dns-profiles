@@ -20,9 +20,9 @@
 					<string>https://cloudflare-dns.com/dns-query</string>
 				</dict>
 				<key>PayloadDescription</key>
-				<string>Cloudflare DNS over HTTPS</string>
+				<string>CloudFlare DNS over HTTPS</string>
 				<key>PayloadDisplayName</key>
-				<string>Cloudflare DNS over HTTPS</string>
+				<string>CloudFlare DNS over HTTPS</string>
 				<key>PayloadIdentifier</key>
 				<string>com.apple.dnsSettings.managed.A9718E38-E605-4407-9DC0-CE6787E4E0E6</string>
 				<key>PayloadType</key>
@@ -36,9 +36,9 @@
 			</dict>
 		</array>
 		<key>PayloadDescription</key>
-		<string>Cloudflare DNS Over HTTPS to devices on or above macos Big Sur and iOS 14</string>
+		<string>CloudFlare DNS Over HTTPS to devices on or above macos Big Sur and iOS 14</string>
 		<key>PayloadDisplayName</key>
-		<string>Cloudflare Encrypted DNS over HTTPS</string>
+		<string>CloudFlare Encrypted DNS over HTTPS</string>
 		<key>PayloadIdentifier</key>
 		<string>com.lokesh-balla.apple-dns</string>
 		<key>PayloadRemovalDisallowed</key>
