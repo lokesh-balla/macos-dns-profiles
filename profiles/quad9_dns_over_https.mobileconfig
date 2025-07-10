@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.quad9.net/dns-query</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>9.9.9.9</string>
+                    <string>149.112.112.112</string>
+                    <string>2620:fe::fe</string>
+                    <string>2620:fe::9</string>
+                </array>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string></string>
+                </array>
+            </dict>
+            <key>PayloadDisplayName</key>
+            <string>Quad9 DNS over HTTPS (IPv4/IPv6)</string>
+            <key>PayloadIdentifier</key>
+            <string>com.quad9.dns.doh.ipv4ipv6</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>CCBCD605-A9EC-4717-8A66-64FC9A2B651B</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Configures DNS over HTTPS using Quad9's secure DNS service for both IPv4 and IPv6. Quad9 provides malware and phishing protection while maintaining privacy and helps prevent DNS leaks.</string>
+    <key>PayloadDisplayName</key>
+    <string>Quad9 DNS over HTTPS Configuration</string>
+    <key>PayloadIdentifier</key>
+    <string>com.quad9.dns.profile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>B2C3D4E5-F6A7-8901-BCDE-F23456789012</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
+
