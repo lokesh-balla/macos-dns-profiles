@@ -22,6 +22,16 @@
                 <array>
                     <string></string>
                 </array>
+                <key>ExceptionList</key>
+                <array>
+                    <string>mask.icloud.com</string>
+                    <string>mask-h2.icloud.com</string>
+                    <string>mask-api.icloud.com</string>
+                    <string>*.apple-dns.net</string>
+                    <string>*.apple.com</string>
+                    <string>*.icloud.com</string>
+                    <string>*.icloud-content.com</string>
+                </array>
             </dict>
             <key>PayloadDisplayName</key>
             <string>ControlD DNS over HTTPS (IPv4/IPv6)</string>
@@ -36,7 +46,7 @@
         </dict>
     </array>
     <key>PayloadDescription</key>
-    <string>Configures DNS over HTTPS using ControlD's secure DNS service for both IPv4 and IPv6. ControlD offers customizable content filtering and privacy features.</string>
+    <string>Configures DNS over HTTPS using ControlD's secure DNS service for both IPv4 and IPv6. ControlD offers customizable content filtering and privacy features. Apple Private Relay domains are excluded to ensure proper functionality.</string>
     <key>PayloadDisplayName</key>
     <string>ControlD DNS over HTTPS Configuration</string>
     <key>PayloadIdentifier</key>
@@ -51,4 +61,3 @@
     <integer>1</integer>
 </dict>
 </plist>
-
